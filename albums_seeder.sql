@@ -1,6 +1,6 @@
 USE codeup_test_db;
 
-truncate albums;
+# truncate albums;
 
 show tables;
 

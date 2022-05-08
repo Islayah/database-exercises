@@ -2,6 +2,7 @@ use codeup_test_db;
 
 select 'All albums in your table' as 'info';
 select name from albums;
+# Can use sales = sales * 10;
 update albums set sales = (sales * 10) ;
 select sales from albums;
 
